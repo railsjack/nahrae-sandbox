@@ -543,7 +543,6 @@ function(l) {
                 t.hasClass("header-with-topbar") && (a = 40),
                 l(window).on("scroll", l.utilitiesFunctions.debounce(function() {
                 	var inBlackArea = l(document).scrollTop() > a;
-                	inBlackArea = l(document).scrollTop() > b;
                 	  l(".home.page .navbar").hasClass("no-slider") || (inBlackArea ? e && (e = !1,
                     t.removeClass("navbar-transparent"),
                     t.addClass("navbar-not-transparent")) : e || (e = !0,
