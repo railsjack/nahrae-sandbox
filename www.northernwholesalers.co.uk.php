@@ -1,5 +1,5 @@
 <?php
-header('Referrer-Policy: origin');
+header('Referrer-Policy: *');
 ?><!DOCTYPE html>
 <html lang="en">
 
