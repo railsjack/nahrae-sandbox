@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+header('Referrer-Policy: origin');
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
