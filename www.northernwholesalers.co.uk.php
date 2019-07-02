@@ -1,5 +1,6 @@
 <?php
 header('Referrer-Policy: *');
+header('Access-Control-Allow-Origin: *');
 ?><!DOCTYPE html>
 <html lang="en">
 
